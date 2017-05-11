@@ -2461,6 +2461,10 @@
 			margin: 0;
 		}
 
+		.work-item a {
+			font-size: 1.1em;
+		}
+
 /* Header */
 
 	#header {
@@ -2521,7 +2525,7 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.7);
+			color: rgba(255, 255, 255, 0.8);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2539,11 +2543,11 @@
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.9);
+			color: rgba(255, 255, 255, 1);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.9);
+		color: rgba(255, 255, 255, 1);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -3125,4 +3129,20 @@
 				padding-left: 0;
 			}
 
+	}
+
+	.skills {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0;
+	}
+
+	.skills li {
+		width: 25%;
+		padding: 5%;
+	}
+
+	.skills img {
+		width: 100%;
 	}
